@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.firstpage {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F4;
+}
+
+.Navbar {
+  background-color: #2752EA;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.462);
+  font-family: "Poppins", sans-serif;
+}
+.Navbar .logo {
+  width: 30px;
+  height: auto;
+  margin: 0;
+  margin-left: 50px;
+}
+.Navbar button {
+  border-radius: 40px;
+  color: #2752EA;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+}
+.Navbar li {
+  padding-left: 30px;
+  font-weight: 500;
+  text-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.384);
+}
+
+.lefthalf {
+  flex-direction: column;
+  margin: 20px;
+  margin-left: 70px;
+}
+.lefthalf .maintext {
+  font-size: 3.6rem;
+  line-height: 4.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.lefthalf .subtext {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+.lefthalf span {
+  color: #2752EA;
+}
+.lefthalf input {
+  width: 300px;
+  height: 40px;
+  border-radius: 7px 0px 0px 7px;
+}
+.lefthalf button {
+  width: 50px;
+  height: 40px;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  width: 360px;
+  height: auto;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
