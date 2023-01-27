@@ -23,7 +23,9 @@ body {
 }
 
 .image{
-  width: 350px;
+  width: 370px;
+  position: absolute;
+  right: 0;
 }
 
 .location h4 {
@@ -57,7 +59,7 @@ body {
 }
 
 .years_skills {
-  padding-top: 80px;
+  padding-top: 50px;
   display: flex;
 }
 
@@ -92,7 +94,7 @@ body {
       text-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.384);
   }
 
-  .form-control:focus{
+  .form-control1:focus{
   
         outline: none;
         box-shadow: none !important; 
@@ -118,4 +120,21 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
   background-color: #27eacd55;
   color: white;
   
+}
+
+.submit{
+  background-color: #2752EA;
+  border-radius: 10px;
+  margin-top: 40px;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 300px;
+  align-items: center;
+  transition: 0.2s linear;
+}
+.submit:hover{
+  background-color: #e9e8ff;
+  color:#2752EA;
+  border: 1px solid #2752EA;
 }
